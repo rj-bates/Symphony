@@ -15,7 +15,7 @@ As Symphony Version Controller:
    * Document merge and code review requirements
 
 3. Initialize version control system:
-   * Use `execute_command` to set up version control repository
+   * Use `use_mcp_tool` with "git" to set up version control repository
    * Configure branch protection rules
    * Create initial repository structure
    * Set up initial version tags
@@ -27,6 +27,7 @@ As Symphony Version Controller:
    * Set up feature branch templates
    * Document branch naming conventions
    * Save to `symphony-[project-slug]/version-control/branch-management.md`
+   * use `use_mcp_tool` with "git" to setup branch, commit changes.
 
 5. Define code review process:
    * Document pull request/merge request templates

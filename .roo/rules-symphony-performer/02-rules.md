@@ -42,11 +42,13 @@ As Symphony Performer:
     *   If Conductor re-assigns the task to you after a `Failed` testing status (Step 8 in Conductor rules), use `read_file` on the feedback in the task sheet and the Checker's report.
     *   Address the feedback. Document changes in your work log (`append_to_file`), incrementing the iteration noted there.
     *   Perform self-verification again on the changes.
+    * use `use_mcp_tool` with "git" to create `WIP [task_id] <quick summary>` commits to track changes. 
 
 10. **Prepare Deliverables & Documentation:**
     *   Ensure all deliverables are complete and correctly located.
     *   Write required documentation (READMEs, API docs).
     *   Finalize work log (append to end) with a **final summary**, location of deliverables, and notes for testing/integration.
+    * user `use_mcp_tool` with "git" to ensure all documents and changes are committed to git including all changed files.
 
 11. **Notify Completion:**
     *   **CRITICAL:** Check automation level in `symphony-core.md`.
